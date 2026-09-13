@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Do not commit biometric data
+data/registered_faces/*
+!data/registered_faces/.gitkeep
+
+# Local attendance DB
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Exports
+attendance_export.csv
+*.csv
+
+.env
